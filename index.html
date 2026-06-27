@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yamini Nebhnani | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    background:#f8fafc;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:#ffffff;
+    text-align:center;
+    padding:60px 20px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+}
+
+header h1{
+    font-size:42px;
+    color:#1e3a8a;
+}
+
+header p{
+    color:#64748b;
+    margin-top:10px;
+    font-size:18px;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:40px auto;
+}
+
+.section-title{
+    text-align:center;
+    color:#1e3a8a;
+    margin-bottom:30px;
+    font-size:32px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:16px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.08);
+    transition:0.3s;
+    animation:fadeUp 1s ease;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#2563eb;
+    margin-bottom:15px;
+}
+
+.skills span{
+    display:inline-block;
+    background:#dbeafe;
+    color:#1e40af;
+    padding:8px 14px;
+    margin:5px;
+    border-radius:20px;
+    font-size:14px;
+}
+
+ul{
+    padding-left:20px;
+}
+
+li{
+    margin-bottom:10px;
+}
+
+.contact p{
+    margin-bottom:8px;
+}
+
+footer{
+    text-align:center;
+    padding:25px;
+    background:#1e3a8a;
+    color:white;
+    margin-top:50px;
+}
+
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(40px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Yamini Nebhnani</h1>
+    <p>B.Tech CSE Student | Python Enthusiast | Data Analytics Learner</p>
+</header>
+
+<div class="container">
+
+    <h2 class="section-title">About Me</h2>
+
+    <div class="card">
+        <p>
+            Motivated and enthusiastic B.Tech Computer Science student with strong academic performance and foundational technical skills. Passionate about Python development, Artificial Intelligence, Data Analytics, and continuous learning.
+        </p>
+    </div>
+
+    <br>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>Education</h3>
+            <ul>
+                <li>B.Tech CSE - GITS Udaipur (2025-2029)</li>
+                <li>SGPA: 9.02</li>
+                <li>Class 12 (RBSE): 90.20%</li>
+                <li>Class 10 (RBSE): 90.67%</li>
+                <li>RS-CIT: 82%</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Technical Skills</h3>
+
+            <div class="skills">
+                <span>C Programming</span>
+                <span>Python</span>
+                <span>Power BI</span>
+                <span>MS Excel</span>
+                <span>MS Word</span>
+                <span>PowerPoint</span>
+                <span>Data Analytics</span>
+                <span>Artificial Intelligence</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>Certifications</h3>
+            <ul>
+                <li>ISRO Workshop Participation</li>
+                <li>AI Fundamentals Certification</li>
+                <li>Adobe Certification Course</li>
+                <li>Tata Imagination Challenge</li>
+                <li>EY Techathon 6.0</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Achievements</h3>
+            <ul>
+                <li>Winner - Ideathon 2025</li>
+                <li>Second Position - Manthan Management Fest</li>
+                <li>Certificate of Excellence - October Management Fest</li>
+                <li>Strong Academic Record (90%+)</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Soft Skills</h3>
+
+            <div class="skills">
+                <span>Communication</span>
+                <span>Leadership</span>
+                <span>Teamwork</span>
+                <span>Quick Learner</span>
+                <span>Problem Solving</span>
+                <span>Time Management</span>
+            </div>
+        </div>
+
+        <div class="card contact">
+            <h3>Contact</h3>
+
+            <p>Email: yamininebhnani1012@gmail.com</p>
+            <p>Phone: +91 8619085779</p>
+            <p>Location: Udaipur, Rajasthan</p>
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Yamini Nebhnani | Personal Portfolio
+</footer>
+
+</body>
+</html>
